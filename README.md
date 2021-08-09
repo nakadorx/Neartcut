@@ -13,4 +13,4 @@ The goal of this challenge is to test the ability at implementing HTML and CSS f
 
 ## Problem
 
-the designer used 14 for the text font that's what I did but I recommend using 16 because the A11Y guidelines (https://www.w3.org/WAI/standards-guidelines/wcag/)
+the designer used 14px for the text font that's what I did but I recommend using 16px because the A11Y guidelines (https://www.w3.org/WAI/standards-guidelines/wcag/)
