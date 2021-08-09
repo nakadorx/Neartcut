@@ -2,7 +2,7 @@
 
 The goal of this challenge is to test the ability at implementing HTML and CSS from scratch.
 
-## Quests :
+## Quests
 
 - A responsive implementation that works on mobile and tablet
   Attention to detail ✅
