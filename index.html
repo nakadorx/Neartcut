@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Nearcut</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>The Completely Powerful Booking System for Barbers</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          maecenas sed faucibus volutpat id eleifend quis elementum.
+        </p>
+        <button onclick="alertNothing()">Get Started</button>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/img/phone.png" alt="phone" />
+      </div>
+    </div>
+    <main>
+      <section>
+        <form>
+          <div class="form-row">
+            <p>Full Name</p>
+            <input
+              type="text"
+              class="input-text"
+              name="full_name"
+              placeholder="Please enter your full name"
+            />
+          </div>
+          <div class="form-row">
+            <p>Email</p>
+            <input
+              type="text"
+              class="input-text"
+              name="email"
+              placeholder="Please enter your full name"
+            />
+          </div>
+          <div class="form-row">
+            <p>Phone Number</p>
+            <div class="combined-inputs">
+              <select class="input-text country-input phone-input" name="flag">
+                <option><span>🇩🇪</span></option>
+              </select>
+              <input
+                type="text"
+                class="input-text phone-input"
+                name="phone_number"
+                placeholder="Please enter your full name"
+                value="(+49) 000 000 000"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <p>Buisiness Name</p>
+            <input
+              type="text"
+              class="input-text"
+              name="buisiness_name"
+              placeholder="Please enter your full name"
+            />
+          </div>
+          <div class="form-row">
+            <p>Country</p>
+            <select class="input-text country-input" name="country">
+              <option><span>🇩🇪 Germany</span></option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="check">
+              <input id="check" name="check" type="checkbox" value="test" />I
+              agree to all terms & conditions and policy features.
+            </label>
+          </div>
+          <div class="form-row">
+            <button
+              onclick="alertNothing()"
+              type="submit"
+              class="createAccount"
+            >
+              Create Your Account
+            </button>
+            <p class="link">
+              Already have a Nearcut account? <a href="#">Login Here</a>
+            </p>
+          </div>
+        </form>
+        <div class="registration-content">
+          <h5>Complete the registration form to get started</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            maecenas sed faucibus volutpat id eleifend quis elementum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            maecenas sed faucibus volutpat id eleifend quis elementum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            maecenas sed faucibus volutpat id eleifend quis elementum.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-logo">
+        <img src="./assets/img/logo.png" alt="" />
+      </div>
+      <p>So much more than a booking system</p>
+      <ul>
+        <li>
+          <img src="./assets/img/carbon_phone-filled.png" alt="phone-logo" />
+          <p>01 606 277 565</p>
+        </li>
+        <li>
+          <img src="./assets/img/ic_sharp-email.png" alt="email" />
+          <p>Email Us</p>
+        </li>
+      </ul>
+      <div class="social-media-content">
+        <h5>Social Media</h5>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./assets/img/cib_facebook-f.png" alt="facebook" />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/img/bx_bxl-instagram-alt.png" alt="instagram"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/img/akar-icons_twitter-fill.png" alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./assets/img/foundation_social-linkedin.png"
+                alt="linkedin"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const alertNothing = () => {
+        alert("You didn't mention what to do on the javascript part :)");
+      };
+    </script>
+  </body>
+</html>
