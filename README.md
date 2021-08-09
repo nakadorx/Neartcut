@@ -7,7 +7,7 @@ The goal of this challenge is to test the ability at implementing HTML and CSS f
 - A responsive implementation that works on mobile and tablet
   Attention to detail ✅
 - You may not use any external libraries (eg. Bootstrap, Tailwind, etc.). ✅
-- The Design mockup the designs for the page:
+- The Design mockup for the page:
   https://www.figma.com/file/nOUsZ4LQdXZdw1A39QBJpT/Front-end-Developer-Coding-Challenge-Montassar?node-id=0%3A1 ✅
 - The fonts used Oswald & Nunito Sans ✅
 
